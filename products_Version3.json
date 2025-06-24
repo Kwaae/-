@@ -1,0 +1,11 @@
+[
+  {
+    "id": "acc1",
+    "name": "حساب ستيم مع ألعاب مميزة",
+    "desc": "يحتوي على CS:GO و GTA V و PUBG.",
+    "price": "150 ر.س",
+    "img": "https://cdn-icons-png.flaticon.com/512/5968/5968703.png",
+    "steamUser": "example1",
+    "steamPass": "pass123"
+  }
+]

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>إضافة حساب | Fox Steam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🦊 Fox Steam</h1>
+    <nav>
+      <a href="index.html">الرئيسية</a>
+      <a href="add.html">إضافة حساب</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>إضافة حساب ستيم جديد</h2>
+      <form id="add-product-form">
+        <label>اسم الحساب (اختياري):<input type="text" id="accountName"></label>
+        <label>وصف الحساب/الألعاب:<textarea id="desc"></textarea></label>
+        <label>السعر:<input type="text" id="price"></label>
+        <label>اسم مستخدم ستيم:<input type="text" id="steamUser"></label>
+        <label>كلمة مرور ستيم:<input type="text" id="steamPass"></label>
+        <label>رابط صورة (اختياري):<input type="text" id="img"></label>
+        <label>كلمة المرور للإضافة:<input type="password" id="adminPass"></label>
+        <button type="submit">إضافة</button>
+      </form>
+      <p id="msg"></p>
+      <small>تظهر الحسابات تلقائيًا في الصفحة الرئيسية بعد إضافتها (تحتاج تعديل ملف المنتجات).</small>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Fox Steam
+  </footer>
+  <script src="add.js"></script>
+</body>
+</html>
